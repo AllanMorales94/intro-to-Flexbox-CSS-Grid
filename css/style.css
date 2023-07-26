@@ -1,6 +1,21 @@
 * {
-  background-color: blueviolet;
-  box-sizing: border-box;
+  /* background-color: blueviolet;
+  box-sizing: border-box; */
+}
+.container {
+  height: 100vh;
+  display: flex
+}
+
+.container div {
+  height: 10rem;
+  width: 10rem;
+  border: solid black;
+  margin: 10px;
+}
+
+.red {
+  background-color: red;
 }
 
 body {
