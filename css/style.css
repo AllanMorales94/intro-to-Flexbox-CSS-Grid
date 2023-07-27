@@ -52,3 +52,15 @@ footer {
   align-items: center;
   grid-area: footer;
 }
+
+@media (max-width: 500px) {
+  body {
+    grid-template-areas:
+    "navbar"
+    "aside"
+    "main"
+    "footer";
+    grid-template-columns: 1fr; 
+    grid-template-rows: .8fr 1fr 3fr 3fr;
+  }
+}
