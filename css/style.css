@@ -9,3 +9,7 @@ nav div {
   font-size: 20px;
   margin: 10px;
 }
+
+nav div:last-child{
+margin-left: auto;
+}
