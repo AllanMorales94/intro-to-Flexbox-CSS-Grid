@@ -5,6 +5,7 @@ body {
   "navbar navbar"
   "aside main"
   "footer footer";
+  grid-template-columns: 2fr 8fr;
 }
 
 nav {
