@@ -1,5 +1,9 @@
 body {
   display: grid;
+  grid-template-areas: 
+  "navbar navbar"
+  "aside main"
+  "footer footer";
 }
 
 nav {
