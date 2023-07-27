@@ -6,6 +6,7 @@ body {
   "aside main"
   "footer footer";
   grid-template-columns: 2fr 8fr;
+  grid-template-rows: 3.125rem auto 2.5rem;
 }
 
 nav {
