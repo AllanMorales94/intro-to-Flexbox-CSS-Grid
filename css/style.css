@@ -1,3 +1,7 @@
+body {
+  display: grid;
+}
+
 nav {
   background-color: grey;
   display: flex;
@@ -12,4 +16,28 @@ nav div {
 
 nav div:last-child{
 margin-left: auto;
+}
+
+aside {
+  background: black;
+  color: lawngreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: grey;
+  color: lawngreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lawngreen;
 }
